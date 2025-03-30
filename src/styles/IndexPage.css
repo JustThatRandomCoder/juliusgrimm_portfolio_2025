@@ -83,3 +83,11 @@ body {
 .work {
     padding: 1.5rem;
 }
+
+.work>.project-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1vw;
+    width: 100%;
+    justify-content: center;
+}

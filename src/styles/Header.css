@@ -45,6 +45,7 @@ header {
     position: fixed;
     top: 0;
     box-sizing: border-box;
+    z-index: 1000;
 }
 
 .nav-items {

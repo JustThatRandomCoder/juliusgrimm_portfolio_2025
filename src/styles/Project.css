@@ -1,0 +1,100 @@
+:root {
+    font-family: 'Mulish', system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    color-scheme: light dark;
+    color: var(--text);
+    background-color: var(--background);
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Light mode colors */
+    --background: #ffffff;
+    --text: #000000;
+    --text-80: rgba(0, 0, 0, 0.8);
+    --text-60: rgba(0, 0, 0, 0.6);
+    --text-blue: #008DE4;
+    --container-grey: #EFEFEF;
+    --container-grey-highlighted: #D2D2D2;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        /* Dark mode colors */
+        --background: #000000;
+        --text: #ffffff;
+        --text-80: rgba(255, 255, 255, 0.8);
+        --text-60: rgba(255, 255, 255, 0.6);
+        --text-blue: #26A0EB;
+        --container-grey: #101010;
+        --container-grey-highlighted: #18191b;
+    }
+}
+
+.project {
+    background-color: var(--container-grey);
+    aspect-ratio: 1 / 1;
+    min-width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.5s ease, filter 0.5s ease;
+    cursor: grab;
+}
+
+.project:active {
+    cursor: grabbing;
+}
+
+.project:hover {
+    background-color: var(--container-grey-highlighted);
+}
+
+.project:hover .overlay {
+    opacity: 1;
+}
+
+.project:hover .logo img {
+    filter: blur(10px);
+    transition: filter 0.3s ease-in-out;
+}
+
+.logo {
+    width: 15vw;
+    z-index: 1;
+}
+
+.logo img {
+    filter: blur(0);
+    transition: filter 0.3s ease-in-out;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 3vw;
+    left: 3vw;
+    color: var(--text);
+    font-size: 1rem;
+    z-index: 2;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    pointer-events: none;
+    text-align: left;
+}
+
+.overlay>.name {
+    font-size: 2vw;
+    font-weight: 700;
+}
+
+.overlay>.description {
+    font-size: 1.3vw;
+    color: var(--text-60);
+}
