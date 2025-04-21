@@ -141,7 +141,7 @@ const IndexPage: React.FC = () => {
               Instagram
             </a>
             <a
-              href="https://github.com/justtatrandomcoder"
+              href="https://github.com/justthatrandomcoder"
               target="_blank"
               rel="noopener noreferrer"
             >

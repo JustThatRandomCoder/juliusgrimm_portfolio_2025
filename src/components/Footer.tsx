@@ -16,12 +16,12 @@ const Footer: React.FC = () => {
     },
     {
       label: "Instagram",
-      href: "https://www.instagram.com/yourprofile",
+      href: "https://www.instagram.com/julius_gr_",
       external: true,
     },
     {
       label: "GitHub",
-      href: "https://github.com/justtatrandomcoder",
+      href: "https://github.com/justthatrandomcoder",
       external: true,
     },
     { label: "Email", href: "mailto:me@juliusgrimm.dev", external: true },

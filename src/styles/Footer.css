@@ -39,13 +39,14 @@ hr {
     border: 0;
     height: 1px;
     background-color: var(--text);
-    margin: 20px 0;
+    margin-top: 20px;
 }
 
 footer {
     padding: 1.5rem;
     text-align: left;
-    width: 100%;
+    max-width: full;
+
 }
 
 .footer-content {
@@ -73,4 +74,35 @@ footer {
 
 .link-container {
     max-width: 11rem;
+}
+
+@media screen and (max-width: 600px) {
+    hr {
+        width: 100% !important;
+    }
+
+    .footer-content {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .footer-inner {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 7vw;
+        align-items: grid;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .footer-inner {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 7vw;
+        align-items: grid;
+        width: 100%;
+        flex-wrap: wrap;
+    }
 }
