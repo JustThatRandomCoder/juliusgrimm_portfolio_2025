@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from "react";
+import { motion } from "framer-motion";
 import "../styles/IndexPage.css";
 import Header from "../components/Header";
 import Project from "../components/Project";
@@ -9,6 +10,8 @@ gsap.registerPlugin(ScrollTrigger);
 
 const IndexPage: React.FC = () => {
   const projectContainerRef = useRef<HTMLDivElement>(null);
+  const workSectionRef = useRef<HTMLElement>(null);
+  const hrRef = useRef<HTMLHRElement>(null);
 
   useEffect(() => {
     const projects = projectContainerRef.current?.querySelectorAll(".project");
@@ -34,12 +37,62 @@ const IndexPage: React.FC = () => {
         );
       });
     }
+
+    if (projectContainerRef.current) {
+      gsap.fromTo(
+        projectContainerRef.current,
+        { opacity: 0, y: 50 },
+        {
+          opacity: 1,
+          y: 0,
+          duration: 1.5,
+          ease: "power4.out",
+          scrollTrigger: {
+            trigger: projectContainerRef.current,
+            start: "top 90%",
+            end: "top 10%",
+            scrub: 1.5,
+            toggleActions: "play none none reverse",
+          },
+        }
+      );
+    }
+
+    if (hrRef.current) {
+      gsap.fromTo(
+        hrRef.current,
+        { opacity: 0, scaleX: 0 },
+        {
+          opacity: 1,
+          scaleX: 1,
+          duration: 1.5,
+          ease: "power4.out",
+          onComplete: () => {
+            ScrollTrigger.create({
+              trigger: hrRef.current,
+              start: "top 95%",
+              end: "top 50%",
+              onEnter: () => gsap.set(hrRef.current, { clearProps: "all" }),
+            });
+          },
+        }
+      );
+    }
   }, []);
 
   return (
-    <main>
+    <motion.main
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 1.5 }}
+    >
       <Header />
-      <section className="landing-page">
+      <motion.section
+        className="landing-page"
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1.5, ease: "easeOut" }}
+      >
         <div className="head">
           <div className="emoji-co">
             <span role="img" aria-label="peace">
@@ -92,16 +145,28 @@ const IndexPage: React.FC = () => {
             </a>
           </div>
           <div className="text">
-            Hey there! I’m Julius Grimm, a 14 y/o fullstack web developer & UI /
-            UX designer, focusing on creating friendly user experiences, loving
-            details, currently cofounding{" "}
+            Hey there! I’m Julius Grimm, a 15 y/o fullstack web developer & UI /
+            UX designer, driven by his passion and love for technology,
+            currently experementing with{" "}
             <span className="highlighted">@FestiFly</span>.
           </div>
         </div>
-      </section>
-      <section className="work">
-        <hr />
-        <div className="project-container" ref={projectContainerRef}>
+      </motion.section>
+      <section className="work" ref={workSectionRef}>
+        <motion.hr
+          ref={hrRef}
+          initial={{ opacity: 0, scaleX: 0 }}
+          animate={{ opacity: 1, scaleX: 1 }}
+          transition={{ duration: 1.5, ease: "easeOut" }}
+          style={{ transformOrigin: "center" }}
+        />
+        <motion.div
+          className="project-container"
+          ref={projectContainerRef}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1.5, ease: "easeOut" }}
+        >
           <Project
             id="festifly"
             logoSrc="../../public/logos/festifly_logo.png"
@@ -130,9 +195,9 @@ const IndexPage: React.FC = () => {
             name="SkyView"
             description="UI / UX Design  & Fullstack Development"
           />
-        </div>
+        </motion.div>
       </section>
-    </main>
+    </motion.main>
   );
 };
 

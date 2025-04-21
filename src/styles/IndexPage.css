@@ -78,6 +78,12 @@ body {
 .landing-page .highlighted {
     color: var(--text-blue);
     text-decoration: underline;
+    transition: letter-spacing 0.3s ease;
+}
+
+.landing-page .highlighted:hover {
+    letter-spacing: 3px;
+    cursor: pointer;
 }
 
 .work {
@@ -90,4 +96,72 @@ body {
     gap: 1vw;
     width: 100%;
     justify-content: center;
+    margin-top: 1vw;
+}
+
+@media screen and (max-width: 768px) {
+    .work>.project-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .landing-page {
+        height: min-content;
+        margin-top: 5rem;
+        padding: 1rem;
+    }
+
+    .landing-page .text {
+        width: 100%;
+    }
+
+    .landing-page .emoji-co {
+        font-size: 4vw;
+        gap: 4vw;
+    }
+
+    .landing-page .social-links {
+        font-size: 4vw;
+        margin-top: 6vw;
+    }
+
+    .landing-page .text {
+        font-size: 5vw;
+        margin-top: 4vw;
+    }
+
+    .work {
+        padding: 1rem;
+    }
+
+    .work>.project-container {
+        margin-top: 1rem;
+        grid-template-columns: repeat(1, 2fr);
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+
+    .work>.project-container>.project {
+        min-width: 100%;
+    }
+
+    .work>.project-container>.project>.logo {
+        width: 50vw;
+    }
+
+    .work>.project-container>.project>.logo img {
+        width: 100%;
+    }
+
+    .work>.project-container>.project>.overlay {
+        bottom: 7vw;
+        left: 7vw;
+    }
+
+    .work>.project-container>.project>.overlay>.name {
+        font-size: 7vw;
+    }
+
+    .work>.project-container>.project>.overlay>.description {
+        font-size: 3vw;
+    }
 }
