@@ -1,8 +1,12 @@
 import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import "../styles/IndexPage.css";
+
+/* Components */
 import Header from "../components/Header";
 import Project from "../components/Project";
+import Footer from "../components/Footer";
+
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -197,6 +201,7 @@ const IndexPage: React.FC = () => {
           />
         </motion.div>
       </section>
+      <Footer />
     </motion.main>
   );
 };
