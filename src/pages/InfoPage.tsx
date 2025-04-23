@@ -94,9 +94,8 @@ const IndexPage: React.FC = () => {
           >
             <section className="about">
               <p className="text-block first">
-                Hey, I’m Julius Grimm, 14 y/o and I’m supposingly a nerd. I'm
-                located in{" "}
-                <span className="highlighted"> Tübingen, Germany</span> and
+                Hey, I’m Julius Grimm, 15 y/o and I'm a thinker. I'm located in{" "}
+                <span className="highlighted"> Tübingen, Germany </span> and
                 student <span className="highlighted">@Uhland-Gymnasium</span>{" "}
                 Tübingen
               </p>
