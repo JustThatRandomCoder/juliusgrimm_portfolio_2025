@@ -1,5 +1,4 @@
 import React, { useEffect, useRef } from "react";
-/*import { motion } from "framer-motion";*/
 import "../styles/InfoPage.css";
 
 /* Components */
@@ -8,26 +7,101 @@ import Footer from "../components/Footer";
 
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { motion } from "framer-motion"; // Import Framer Motion
 
 gsap.registerPlugin(ScrollTrigger);
 
 const IndexPage: React.FC = () => {
+  const textBlocksRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (textBlocksRef.current) {
+      const textBlocks = textBlocksRef.current.querySelectorAll(".text-block");
+
+      textBlocks.forEach((block) => {
+        const childNodes = Array.from(block.childNodes);
+
+        childNodes.forEach((node) => {
+          if (node.nodeType === Node.TEXT_NODE) {
+            const textContent = node.textContent || "";
+            const words = textContent
+              .split(" ")
+              .filter((word) => word.trim() !== "");
+
+            words.forEach((word) => {
+              const span = document.createElement("span");
+              span.className = "word";
+              span.style.opacity = "0.4";
+              span.textContent = word + " ";
+              block.insertBefore(span, node);
+            });
+
+            block.removeChild(node);
+          } else if (node.nodeType === Node.ELEMENT_NODE) {
+            const element = node as HTMLElement;
+            if (element.classList.contains("highlighted")) {
+              element.style.opacity = "0.4";
+              element.classList.add("word");
+            }
+          }
+        });
+      });
+
+      const words = textBlocksRef.current.querySelectorAll(".word");
+      gsap.set(words, { opacity: 0.4 });
+      words.forEach((word, index) => {
+        gsap.to(word, {
+          opacity: 1,
+          scrollTrigger: {
+            trigger: word,
+            start: "top 90%",
+            end: "top 60%",
+            scrub: 1.5,
+          },
+        });
+      });
+    }
+  }, []);
+
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.3,
+      },
+    },
+  };
+
+  const itemVariants = {
+    hidden: { opacity: 0, y: 20 },
+    visible: { opacity: 1, y: 0, transition: { duration: 1.5 } },
+  };
+
   return (
-    <main>
+    <motion.main
+      initial="hidden"
+      animate="visible"
+      variants={containerVariants}
+    >
       <Header />
-      <div className="content-container">
+      <motion.div className="content-container" variants={itemVariants}>
         <div className="content-inner">
-          <div className="text-container">
+          <motion.div
+            className="text-container"
+            ref={textBlocksRef}
+            variants={itemVariants}
+          >
             <section className="about">
               <p className="text-block first">
-                Hey, I’m Julius Grimm, 14 y/o and I’m supposingly a nerd. I am
-                currently crafting in{" "}
+                Hey, I’m Julius Grimm, 14 y/o and I’m supposingly a nerd. I'm
+                located in{" "}
                 <span className="highlighted"> Tübingen, Germany</span> and
                 student <span className="highlighted">@Uhland-Gymnasium</span>{" "}
                 Tübingen
               </p>
               <p className="text-block">
-                I'm currentlly working on different projects, including{" "}
+                I'm currently working on different projects, including{" "}
                 <span className="highlighted"> @Festifly</span> with the goal of
                 making interactions and user experiences as intuitive and easy
                 as possible.
@@ -114,8 +188,8 @@ const IndexPage: React.FC = () => {
                 <span className="text-block text-description">Arduino</span>
               </div>
             </section>
-          </div>
-          <div className="image-container">
+          </motion.div>
+          <motion.div className="image-container" variants={itemVariants}>
             <div className="frame">
               <img src="../../public/figures/figure1.heic" alt="" />
               <div className="description-co">
@@ -144,11 +218,11 @@ const IndexPage: React.FC = () => {
                 <div className="description">Lisbon, Porto - 2025</div>
               </div>
             </div>
-          </div>
+          </motion.div>
         </div>
-      </div>
+      </motion.div>
       <Footer />
-    </main>
+    </motion.main>
   );
 };
 
