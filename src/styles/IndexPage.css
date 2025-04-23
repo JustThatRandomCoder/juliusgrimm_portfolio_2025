@@ -88,6 +88,7 @@ body {
 
 .work {
     padding: 1.5rem;
+    margin-top: -4rem;
 }
 
 .work>.project-container {

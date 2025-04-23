@@ -28,7 +28,7 @@ const Footer: React.FC = () => {
   ];
 
   const infoText =
-    "This website was created with lot’s of ❤️ sitting in cafes ☕️";
+    "This website was created with lot’s of ❤️ sipping in coffee ☕️";
   const copyrightText = "© 2025 Julius Grimm; All rights reserved";
 
   const renderLinks = (
