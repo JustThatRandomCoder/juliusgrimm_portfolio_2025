@@ -5,7 +5,6 @@ const Footer: React.FC = () => {
   const mainLinks = [
     { label: "Index", href: "/" },
     { label: "Info", href: "/info" },
-    { label: "Resume", href: "https://example.com/resume", external: true },
   ];
 
   const socialLinks = [

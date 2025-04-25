@@ -96,8 +96,8 @@ const IndexPage: React.FC = () => {
               <p className="text-block first">
                 Hey, I’m Julius Grimm, 15 y/o and I'm a thinker. I'm located in{" "}
                 <span className="highlighted"> Tübingen, Germany </span> and
-                student <span className="highlighted">@Uhland-Gymnasium</span>{" "}
-                Tübingen
+                student 📚{" "}
+                <span className="highlighted">@Uhland-Gymnasium</span> Tübingen
               </p>
               <p className="text-block">
                 I'm currently working on different projects, including{" "}
@@ -112,8 +112,8 @@ const IndexPage: React.FC = () => {
               </p>
               <p className="text-block">
                 I tried various different things, among these starting a Podcast
-                and a YouTube Chanel, but one thing I always sticked to was
-                coding.{" "}
+                🎙️ and a YouTube Chanel 🎞️, but one thing I always sticked to
+                was coding 👨‍💻.{" "}
               </p>
               <p className="text-block">
                 Inevitable when working on various tech projects alone, with no
@@ -124,8 +124,8 @@ const IndexPage: React.FC = () => {
               <p className="text-block">
                 But besides my love and passion for coding I also tried
                 different other things, finding myself sticking with, regularly
-                hitting the courts, going to the gym daily, rowing sometimes and
-                cooking.
+                hitting the courts 🎾, going to the gym 🏋️ , rowing 🚣 and
+                cooking 👨‍🍳 for my Family ❤️.
               </p>
             </section>
             <section className="education">

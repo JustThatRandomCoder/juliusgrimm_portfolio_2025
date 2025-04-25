@@ -8,6 +8,7 @@ interface ProjectProps {
   altText: string;
   name: string;
   description: string;
+  link?: string; // Optional link for navigation
 }
 
 const Project: React.FC<ProjectProps> = ({
@@ -16,14 +17,27 @@ const Project: React.FC<ProjectProps> = ({
   altText,
   name,
   description,
+  link,
 }) => {
+  const handleClick = () => {
+    if (link) {
+      window.open(link, "_blank", "noopener,noreferrer");
+    }
+  };
+
   return (
-    <motion.div id={id} className="project" whileTap={{ scale: 0.95 }}>
+    <motion.div
+      id={id}
+      className={`project ${link ? "clickable" : "in-development"}`}
+      whileTap={link ? { scale: 0.95 } : undefined} // Disable scale effect if no link
+      onClick={link ? handleClick : undefined} // Only navigate if link is provided
+    >
       <div className="logo">
         <img className="logo" src={logoSrc} alt={altText} />
       </div>
       <div className="overlay">
         <div className="name">{name}</div>
+        {!link && <div className="status">In Development</div>}{" "}
         <div className="description">{description}</div>
       </div>
     </motion.div>

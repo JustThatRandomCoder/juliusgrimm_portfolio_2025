@@ -66,6 +66,11 @@
     transition: filter 0.3s ease-in-out;
 }
 
+.project .status {
+    font-size: vw;
+    color: var(--text-60);
+}
+
 .logo {
     width: 15vw;
     z-index: 1;
