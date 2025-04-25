@@ -173,14 +173,14 @@ const IndexPage: React.FC = () => {
         >
           <Project
             id="festifly"
-            logoSrc="public/logos/festifly_logo.png"
+            logoSrc="/logos/festifly_logo.png"
             altText="FestiFly"
             name="FestiFly"
             description="UI / UX Design & Fullstack Development"
           />
           <Project
             id="vibevote"
-            logoSrc="public/logos/vibeVote_logo.png"
+            logoSrc="/logos/vibeVote_logo.png"
             altText="VibeVote"
             name="VibeVote"
             description="UI / UX Design & Fullstack Development"
@@ -188,14 +188,14 @@ const IndexPage: React.FC = () => {
           />
           <Project
             id="openweatherhub"
-            logoSrc="public/logos/openWeatherHub_logo.png"
+            logoSrc="/logos/openWeatherHub_logo.png"
             altText="OpenWeatherHub"
             name="OpenWeatherHub"
             description="Product-Design & Fullstack Development"
           />
           <Project
             id="skyview"
-            logoSrc="public/logos/skyview_logo.svg"
+            logoSrc="/logos/skyview_logo.svg"
             altText="SkyView"
             name="SkyView"
             description="UI / UX Design  & Fullstack Development"
