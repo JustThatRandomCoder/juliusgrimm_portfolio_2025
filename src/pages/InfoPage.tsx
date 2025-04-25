@@ -49,7 +49,7 @@ const IndexPage: React.FC = () => {
 
       const words = textBlocksRef.current.querySelectorAll(".word");
       gsap.set(words, { opacity: 0.4 });
-      words.forEach((word, index) => {
+      words.forEach((word) => {
         gsap.to(word, {
           opacity: 1,
           scrollTrigger: {
