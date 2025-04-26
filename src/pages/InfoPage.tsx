@@ -190,28 +190,28 @@ const IndexPage: React.FC = () => {
           </motion.div>
           <motion.div className="image-container" variants={itemVariants}>
             <div className="frame">
-              <img src="/figures/figure1.jpg" alt="" />
+              <img src="/figures/figure1.jpeg" alt="" />
               <div className="description-co">
                 <div className="title">Figure 1 - Me & My Family</div>
                 <div className="description">Würzburg, Germany - 2025</div>
               </div>
             </div>
             <div className="frame">
-              <img src="/figures/figure2.jpg" alt="" />
+              <img src="/figures/figure2.jpeg" alt="" />
               <div className="description-co">
                 <div className="title">Figure 2 - Me</div>
                 <div className="description">Lisbon, Porto - 2025</div>
               </div>
             </div>
             <div className="frame">
-              <img src="/figures/figure3.jpg" alt="" />
+              <img src="/figures/figure3.jpeg" alt="" />
               <div className="description-co">
                 <div className="title">Figure 3</div>
                 <div className="description">Lisbon, Porto - 2025</div>
               </div>
             </div>
             <div className="frame">
-              <img src="/figures/figure4.jpg" alt="" />
+              <img src="/figures/figure4.jpeg" alt="" />
               <div className="description-co">
                 <div className="title">Figure 4</div>
                 <div className="description">Lisbon, Porto - 2025</div>
