@@ -58,9 +58,9 @@ Everything’s live — animations, interactions, and all the vibes.
 
 I'm always down to collaborate, chat tech, or just connect with fellow devs:
 
-- 📧 [Contact](https://juliusgrimm.dev#contact)
-- 🐙 [GitHub](https://github.com/juliusgrimm)
-- 🐦 [Twitter](https://twitter.com/juliusgrimm)
+- 📧 [LinkedIn](https://www.linkedin.com/in/julius-gr/)
+- 🐙 [GitHub](https://github.com/justthatrandomcoder)
+- 📸 [Instagram](https://instagram.com/julius_gr_)
 
 ---
 
