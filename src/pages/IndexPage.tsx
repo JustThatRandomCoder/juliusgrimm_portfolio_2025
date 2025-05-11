@@ -177,6 +177,7 @@ const IndexPage: React.FC = () => {
             altText="FestiFly"
             name="FestiFly"
             description="UI / UX Design & Fullstack Development"
+            link="/projects/festifly"
           />
           <Project
             id="vibevote"

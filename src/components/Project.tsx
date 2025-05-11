@@ -21,7 +21,11 @@ const Project: React.FC<ProjectProps> = ({
 }) => {
   const handleClick = () => {
     if (link) {
-      window.open(link, "_blank", "noopener,noreferrer");
+      if (link.startsWith("/")) {
+        window.location.href = link;
+      } else {
+        window.open(link, "_blank", "noopener,noreferrer");
+      }
     }
   };
 
@@ -29,8 +33,8 @@ const Project: React.FC<ProjectProps> = ({
     <motion.div
       id={id}
       className={`project ${link ? "clickable" : "in-development"}`}
-      whileTap={link ? { scale: 0.95 } : undefined} // Disable scale effect if no link
-      onClick={link ? handleClick : undefined} // Only navigate if link is provided
+      whileTap={link ? { scale: 0.95 } : undefined}
+      onClick={link ? handleClick : undefined}
     >
       <div className="logo">
         <img className="logo" src={logoSrc} alt={altText} />

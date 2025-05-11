@@ -1,7 +1,13 @@
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import { useEffect } from "react";
+
+// Pages
 import IndexPage from "./pages/IndexPage";
 import InfoPage from "./pages/InfoPage";
+
+// Project pages
+import FestiFlyProject from "./pages/projects/Festifly";
+
 import "./App.css";
 
 function ScrollToTop() {
@@ -21,6 +27,7 @@ function App() {
       <Routes>
         <Route path="/" element={<IndexPage />} />
         <Route path="/info" element={<InfoPage />} />
+        <Route path="/projects/festifly" element={<FestiFlyProject />} />
       </Routes>
     </BrowserRouter>
   );
