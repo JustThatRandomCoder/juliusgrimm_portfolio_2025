@@ -267,7 +267,7 @@ const FestiFly: React.FC = () => {
           <section className="text-block first">
             <hr />
             <p className="text-block">Frontend Development</p>
-            <p className="text-block m-0">
+            <p className="text-block">
               I built the full frontend in TypeScript with React and Vite.
               Styling was done with Tailwind CSS and animations were handled
               using GSAP and Framer Motion. My teammate focused on backend logic
@@ -290,7 +290,7 @@ const FestiFly: React.FC = () => {
           <section className="text-block first">
             <hr />
             <p className="text-block">Outcome</p>
-            <p className="text-block m-0">
+            <p className="text-block">
               Although we successfully completed the Figma sketches and parts of
               the Frontend, we decided to discontinue full development. Building
               and maintaining a production-ready backend with AI features would
@@ -308,7 +308,7 @@ const FestiFly: React.FC = () => {
           <section className="text-block first">
             <hr />
             <p className="text-block">What I learned</p>
-            <p className="text-block m-0">
+            <p className="text-block">
               I enjoyed the process of creating a product from scratch, from
               ideation to design and development. I learned valuable skills and
               I cloud furhter improve my design and coding abilities. I also
@@ -336,7 +336,7 @@ const FestiFly: React.FC = () => {
           <section className="text-block first">
             <hr />
             <p className="text-block">Next Steps</p>
-            <p className="text-block m-0">
+            <p className="text-block">
               While FestiFly won’t be launched publicly, the knowledge and
               components we created are already being used in our future
               projects. I plan to reuse parts of the design system and UI logic
