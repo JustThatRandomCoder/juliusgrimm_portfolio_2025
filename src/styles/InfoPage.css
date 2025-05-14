@@ -134,6 +134,10 @@ hr {
     flex-direction: column;
 }
 
+.text-block .highlighted::after {
+    content: " ";
+}
+
 @media (max-width: 768px) {
     .content-container {
         margin-top: 3rem;

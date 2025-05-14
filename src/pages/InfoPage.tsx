@@ -94,21 +94,23 @@ const IndexPage: React.FC = () => {
           >
             <section className="about">
               <p className="text-block first">
-                Hey, I’m Julius Grimm, 15 y/o and I'm a thinker. I'm located in{" "}
-                <span className="highlighted"> Tübingen, Germany </span> and
+                Hey, I’m Julius Grimm, 15 y/o and I realy like to think things
+                through. I'm located in{" "}
+                <span className="highlighted">Tübingen, Germany</span> and
                 student 📚{" "}
-                <span className="highlighted">@Uhland-Gymnasium</span> Tübingen
+                <span className="highlighted">@Uhland-Gymnasium Tübingen</span>
               </p>
               <p className="text-block">
                 I'm currently working on different projects, including{" "}
-                <span className="highlighted"> @Festifly</span> with the goal of
+                <span className="highlighted">@Festifly</span> with the goal of
                 making interactions and user experiences as intuitive and easy
                 as possible.
               </p>
               <p className="text-block first">
-                Loving technology, my journey began, at the young age of 10,
-                driven by the obsession of creating things that have never been
-                there before, writing code became an essential part of my life.
+                Loving technology, my journey began, at the age of 10, driven by
+                the obsession of creating something new and trying to do things,
+                which have never been done before, writing code became an
+                essential part of my life.
               </p>
               <p className="text-block">
                 I tried various different things, among these starting a Podcast
@@ -116,16 +118,26 @@ const IndexPage: React.FC = () => {
                 was coding 👨‍💻.{" "}
               </p>
               <p className="text-block">
-                Inevitable when working on various tech projects alone, with no
-                budget is needing to design something. So around at the age of
-                12 I started working with Figma and other tools, strongly
-                promoting my love for technology.
+                I got into design out of necessity — early on, when building
+                tech projects, I didn’t have existing design concepts to rely
+                on, so I had to create my own. Around the age of 12, I started
+                using Figma and other tools, which sparked a strong interest in
+                design alongside my passion for technology.
               </p>
               <p className="text-block">
                 But besides my love and passion for coding I also tried
                 different other things, finding myself sticking with, regularly
                 hitting the courts 🎾, going to the gym 🏋️ , rowing 🚣 and
                 cooking 👨‍🍳 for my Family ❤️.
+              </p>
+              <p className="text-block">
+                I’m always excited about exploring new ideas 💡 and pushing
+                boundaries — especially when it comes to design. Lately, I’ve
+                been drawn to VR and AR 🕶️, and in the future, I see myself
+                designing the human interfaces 🖱️ that make these experiences
+                feel natural and intuitive. I want to see things differently,
+                use them differently, and help shape the way people interact
+                with technology in new dimensions 🌐.
               </p>
             </section>
             <section className="education">

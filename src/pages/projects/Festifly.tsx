@@ -4,6 +4,7 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Header from "../../components/Header";
 import "../../styles/CaseStudie.css";
+import Footer from "../../components/Footer";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -263,7 +264,106 @@ const FestiFly: React.FC = () => {
               </div>
             </div>
           </section>
+          <section className="text-block first">
+            <hr />
+            <p className="text-block">Frontend Development</p>
+            <p className="text-block m-0">
+              I built the full frontend in TypeScript with React and Vite.
+              Styling was done with Tailwind CSS and animations were handled
+              using GSAP and Framer Motion. My teammate focused on backend logic
+              in Node.js, while I focused on user flows, visual design, and
+              responsiveness.
+            </p>
+            <p className="text-block">
+              We used{" "}
+              <a
+                href="https://github.com/justthatrandomcoder"
+                target="_blank"
+                className="link wm"
+              >
+                GitHub
+              </a>{" "}
+              for version control and collaboration, ensuring smooth integration
+              of our work.
+            </p>
+          </section>
+          <section className="text-block first">
+            <hr />
+            <p className="text-block">Outcome</p>
+            <p className="text-block m-0">
+              Although we successfully completed the Figma sketches and parts of
+              the Frontend, we decided to discontinue full development. Building
+              and maintaining a production-ready backend with AI features would
+              have exceeded our current budget and time resources.
+            </p>
+            <p className="text-block">
+              Still, the project was a major success in terms of:
+            </p>
+            <div className="text-block bullet-points">
+              <span>1. Skill development</span>
+              <span>2. Team collaboration</span>
+              <span>3. User-first thinking and design principles</span>
+            </div>
+          </section>
+          <section className="text-block first">
+            <hr />
+            <p className="text-block">What I learned</p>
+            <p className="text-block m-0">
+              I enjoyed the process of creating a product from scratch, from
+              ideation to design and development. I learned valuable skills and
+              I cloud furhter improve my design and coding abilities. I also
+              learned how to work with a team, communicate effectively, and
+              manage my time and resources. Building and Handling big software
+              projects is a complex task that requires a lot of planning,
+              testing, and iteration.
+            </p>
+            <p className="text-block">...but in a nutshell, I learned:</p>
+            <div className="text-block bullet-points wm">
+              <span className="first">
+                Designing from wireframes to final animations taught me how to
+                create consistent, engaging UI experiences.
+              </span>
+              <span>
+                Working with animation libraries like GSAP requires detailed
+                planning to maintain performance and code readability.
+              </span>
+              <span>
+                Real-world product scope often changes — and that’s okay.
+                Knowing when to stop is part of the process.
+              </span>
+            </div>
+          </section>
+          <section className="text-block first">
+            <hr />
+            <p className="text-block">Next Steps</p>
+            <p className="text-block m-0">
+              While FestiFly won’t be launched publicly, the knowledge and
+              components we created are already being used in our future
+              projects. I plan to reuse parts of the design system and UI logic
+              in upcoming apps.
+            </p>
+            <p className="text-block">
+              If you have any questions or want to know more about the project,
+              feel free to reach out to me via{" "}
+              <a
+                href="mailto:me@juliusgrimm.dev"
+                target="_blank"
+                className="link wm"
+              >
+                mail
+              </a>{" "}
+              or on my{" "}
+              <a
+                href="https://www.instagram.com/julius_gr_/"
+                target="_blank"
+                className="link wm"
+              >
+                socials
+              </a>
+            </p>
+          </section>
         </motion.div>
+        <Footer />
       </motion.main>
     </>
   );

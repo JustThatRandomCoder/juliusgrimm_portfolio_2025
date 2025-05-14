@@ -129,6 +129,14 @@
     color: var(--text-60);
 }
 
+.festifly-page .bullet-points.wm>span {
+    padding-top: 2vw;
+}
+
+.festifly-page .bullet-points.wm>span.first {
+    padding-top: 0vw !important;
+}
+
 .festifly-page .bullet-points>span {
     text-align: left;
     line-height: 1.4;
@@ -199,6 +207,10 @@
     position: relative;
     width: 60rem !important;
     z-index: 1;
+}
+
+.festifly-page .link.wm {
+    margin-right: 7px;
 }
 
 .loader {

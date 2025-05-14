@@ -151,7 +151,7 @@ const IndexPage: React.FC = () => {
           <div className="text">
             Hey there! I’m Julius Grimm, a 15 y/o fullstack web developer & UI /
             UX designer, driven by his passion and love for technology,
-            currently experementing with{" "}
+            currently experimenting with{" "}
             <span className="highlighted">@FestiFly</span>.
           </div>
         </div>
