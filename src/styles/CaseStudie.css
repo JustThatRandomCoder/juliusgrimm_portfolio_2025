@@ -271,13 +271,19 @@
     }
 
     .festifly-page .text-block {
-        font-size: 4vw;
+        font-size: 5vw;
         text-align: justify !important;
     }
 
+    .festifly-page .text-block.information {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+
     .festifly-page p {
-        padding: 0 !important;
-        margin: 4vw 0 !important;
+        padding: 1rem !important;
+        margin: 6vw 0 !important;
         margin-bottom: 0 !important;
         padding-bottom: 0 !important;
     }
@@ -302,13 +308,23 @@
     }
 
     .festifly-page .bullet-points {
-        padding-left: 1vw !important;
+        padding-left: 0vw !important;
+        margin-top: 1rem;
+        margin-bottom: 2rem !important;
         display: flex;
         flex-direction: column;
-        font-size: 4vw;
+        font-size: 5vw;
+    }
+
+    .festifly-page .bullet-points>span {
+        margin-top: 1rem;
     }
 
     .festifly-page .mt-4 {
         padding-top: 5vw !important;
+    }
+
+    .festifly-page hr {
+        margin-top: 2rem !important;
     }
 }

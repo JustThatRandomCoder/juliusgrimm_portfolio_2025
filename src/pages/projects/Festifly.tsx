@@ -134,27 +134,38 @@ const FestiFly: React.FC = () => {
           <section className="text-block first">
             <hr />
             <p className="text-block">Overview</p>
-            <div className="text-block">
-              <span>Team:</span>&nbsp;
+            <div className="text-block information">
+              <span>Team:&nbsp;</span>
               <span className="gray-60">2 People</span>
             </div>
-            <div className="text-block">
-              <span>Tools:</span>&nbsp;
+            <div className="text-block information">
+              <span>Tools: &nbsp;</span>
               <span className="gray-60">Figma, VS Code, TypeScript, React</span>
             </div>
-            <div className="text-block">
-              <span>Duration:</span>&nbsp;
+            <div className="text-block information">
+              <span>Duration: &nbsp;</span>
               <span className="gray-60">September 2024 - April 2025 </span>
             </div>
           </section>
           <section className="text-block first">
             <hr />
-            <p className="text-block m-0">
+            <p className="text-block">
               FestiFly is a modern web app that aimed to streamline event
               planning for young people through intuitive design and smart
               automation. Although we decided not to continue development after
               completing the frontend, the project taught us valuable lessons in
               product design, team collaboration, and user-centered thinking.
+            </p>
+          </section>
+          <section className="text-block first">
+            <hr />
+            <p className="text-block">The Problem</p>
+            <p className="text-block">
+              Planning events is often chaotic and fragmented, especially for
+              younger people. Existing tools are either too complex or lack
+              modern, user-friendly designs. FestiFly set out to solve this by
+              creating an intuitive, all-in-one platform that makes organizing
+              events effortless and enjoyable.
             </p>
           </section>
           <section className="text-block first">
