@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 import "../styles/IndexPage.css";
 
 /* Components */
@@ -13,6 +14,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 const IndexPage: React.FC = () => {
+  const navigate = useNavigate();
   const projectContainerRef = useRef<HTMLDivElement>(null);
   const workSectionRef = useRef<HTMLElement>(null);
   const hrRef = useRef<HTMLHRElement>(null);
@@ -152,7 +154,14 @@ const IndexPage: React.FC = () => {
             Hey there! I’m Julius Grimm, a 15 y/o fullstack web developer & UI /
             UX designer, driven by his passion and love for technology,
             currently experimenting with{" "}
-            <span className="highlighted">@FestiFly</span>.
+            <span
+              className="highlighted"
+              onClick={() => navigate("/projects/festifly")}
+              style={{ cursor: "pointer" }}
+            >
+              @FestiFly
+            </span>
+            .
           </div>
         </div>
       </motion.section>

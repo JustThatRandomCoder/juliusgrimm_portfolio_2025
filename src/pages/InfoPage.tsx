@@ -7,11 +7,13 @@ import Footer from "../components/Footer";
 
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { motion } from "framer-motion"; // Import Framer Motion
+import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 
 gsap.registerPlugin(ScrollTrigger);
 
 const IndexPage: React.FC = () => {
+  const navigate = useNavigate();
   const textBlocksRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -102,9 +104,15 @@ const IndexPage: React.FC = () => {
               </p>
               <p className="text-block">
                 I'm currently working on different projects, including{" "}
-                <span className="highlighted">@Festifly</span> with the goal of
-                making interactions and user experiences as intuitive and easy
-                as possible.
+                <span
+                  className="highlighted"
+                  onClick={() => navigate("/projects/festifly")}
+                  style={{ cursor: "pointer" }}
+                >
+                  @FestiFly
+                </span>{" "}
+                with the goal of making interactions and user experiences as
+                intuitive and easy as possible.
               </p>
               <p className="text-block first">
                 Loving technology, my journey began, at the age of 10, driven by
