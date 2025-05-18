@@ -169,6 +169,17 @@
     width: 100% !important;
 }
 
+.festifly-page .frames>.frame>.macbook-video {
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 4vw;
+}
+
+.festifly-page .frames>.frame.macbook-co {
+    margin-bottom: 4vw;
+}
+
+
 .festifly-page .frames>.frame>.frame-description {
     text-align: center;
     font-size: 1.2vw;

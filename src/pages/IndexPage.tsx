@@ -194,7 +194,7 @@ const IndexPage: React.FC = () => {
             altText="VibeVote"
             name="VibeVote"
             description="UI / UX Design & Fullstack Development"
-            link="https://vibevote.de"
+            link="/projects/vibevote"
           />
           <Project
             id="openweatherhub"

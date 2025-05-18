@@ -201,13 +201,19 @@ const FestiFly: React.FC = () => {
             </p>
             <div className="frames">
               <div className="frame figure1">
-                <img src="/projects/frames/figure1.png" alt="Figure 1" />
+                <img
+                  src="/projects/frames/festifly/figure1.png"
+                  alt="Figure 1"
+                />
                 <span className="frame-description">
                   Figure 1 - First Figma sketch
                 </span>
               </div>
               <div className="frame figure2">
-                <img src="/projects/frames/figure2.png" alt="Figure 2" />
+                <img
+                  src="/projects/frames/festifly/figure2.png"
+                  alt="Figure 2"
+                />
                 <span className="frame-description">
                   Figure 2 - Idea for the website
                 </span>
@@ -225,13 +231,19 @@ const FestiFly: React.FC = () => {
             </p>
             <div className="frames">
               <div className="frame figure3">
-                <img src="/projects/frames/figure3.png" alt="Figure 3" />
+                <img
+                  src="/projects/frames/festifly/figure3.png"
+                  alt="Figure 3"
+                />
                 <span className="frame-description">
                   Figure 3 - Final website
                 </span>
               </div>
               <div className="frame figure4">
-                <img src="/projects/frames/figure4.png" alt="Figure 4" />
+                <img
+                  src="/projects/frames/festifly/figure4.png"
+                  alt="Figure 4"
+                />
                 <span className="frame-description">
                   Figure 4 - Final design language
                 </span>
@@ -261,7 +273,7 @@ const FestiFly: React.FC = () => {
               <div className="video-wrapper">
                 <video
                   className="background-video"
-                  src="/projects/frames/figure5.MP4"
+                  src="/projects/frames/festifly/figure5.MP4"
                   autoPlay
                   loop
                   muted
