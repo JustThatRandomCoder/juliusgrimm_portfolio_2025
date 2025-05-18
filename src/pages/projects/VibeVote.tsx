@@ -271,7 +271,7 @@ const FestiFly: React.FC = () => {
             <p className="text-block mt-4">
               Key features I fully developed in{" "}
               <a
-                href="https://www.figma.com/design/lRYgfX8UyjW5NuXghUjkg4/FestiFly?node-id=0-1&t=Hjy4nAClX4WKu9fx-1"
+                href="https://www.figma.com/design/j1938zaam803Krt20GTrOI/vibeVoteRedesign?node-id=0-1&t=Q19Dtr73gxTMpHdy-1"
                 target="_blank"
                 className="link"
               >
@@ -447,7 +447,7 @@ const FestiFly: React.FC = () => {
             <p className="text-block">
               The project taught me a lot, and I’m proud of what it offers in
               its current state. While it may not evolve much for now, it stands
-              as a complete and useful tool—and a milestone in my personal
+              as a complete and useful tool — and a milestone in my personal
               development journey.
             </p>
             <p className="text-block">
