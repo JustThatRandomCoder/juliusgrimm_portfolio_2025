@@ -362,7 +362,7 @@ const SkyView: React.FC = () => {
               This Figure shows the poster I created for the presentation:
             </p>
             <img
-              style={{ width: "100%", height: "100%" }}
+              style={{ marginTop: "2vw", width: "100%", height: "100%" }}
               src="/projects/frames/skyview/figure3.png"
               alt="Figure 3"
             />
