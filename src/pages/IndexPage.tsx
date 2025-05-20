@@ -209,7 +209,7 @@ const IndexPage: React.FC = () => {
             altText="SkyView"
             name="SkyView"
             description="UI / UX Design  & Fullstack Development"
-            link="https://github.com/JustThatRandomCoder/SkyView"
+            link="/projects/skyview"
           />
         </motion.div>
       </section>

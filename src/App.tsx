@@ -8,6 +8,7 @@ import InfoPage from "./pages/InfoPage";
 // Project pages
 import FestiFlyProject from "./pages/projects/Festifly";
 import VibeVoteProject from "./pages/projects/VibeVote";
+import SkyViewProject from "./pages/projects/SkyView";
 
 import "./App.css";
 
@@ -30,6 +31,7 @@ function App() {
         <Route path="/info" element={<InfoPage />} />
         <Route path="/projects/festifly" element={<FestiFlyProject />} />
         <Route path="/projects/vibevote" element={<VibeVoteProject />} />
+        <Route path="/projects/skyview" element={<SkyViewProject />} />
       </Routes>
     </BrowserRouter>
   );

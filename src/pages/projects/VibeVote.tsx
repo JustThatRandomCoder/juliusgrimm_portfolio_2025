@@ -8,7 +8,7 @@ import Footer from "../../components/Footer";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const FestiFly: React.FC = () => {
+const VibeVote: React.FC = () => {
   const textBlocksRef = useRef<HTMLDivElement>(null);
   const [isLoading, setIsLoading] = useState(true);
 
@@ -151,7 +151,7 @@ const FestiFly: React.FC = () => {
             </div>
             <div className="text-block information">
               <span>URL: &nbsp;</span>
-              <a href="https://vibevote.de" className="gray-60">
+              <a href="https://vibevote.de" target="_blank" className="gray-60">
                 https://vibevote.de
               </a>
             </div>
@@ -159,6 +159,7 @@ const FestiFly: React.FC = () => {
               <span>Figma Sketch: &nbsp;</span>
               <a
                 href="https://www.figma.com/design/j1938zaam803Krt20GTrOI/vibeVoteRedesign?node-id=0-1&t=Q19Dtr73gxTMpHdy-1"
+                target="_blank"
                 className="gray-60"
               >
                 https://figma.com
@@ -328,7 +329,7 @@ const FestiFly: React.FC = () => {
           </section>
           <section className="text-block first">
             <hr />
-            <p className="text-block">Chalanges</p>
+            <p className="text-block">Challenges</p>
             <p className="text-block">
               One of the biggest challenges I faced was implementing a secure
               login and signup system. I wanted to ensure user authentication
@@ -477,4 +478,4 @@ const FestiFly: React.FC = () => {
   );
 };
 
-export default FestiFly;
+export default VibeVote;
