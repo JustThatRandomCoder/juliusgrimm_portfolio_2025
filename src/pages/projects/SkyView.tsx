@@ -296,14 +296,14 @@ const SkyView: React.FC = () => {
               of user experience and development approach. I used Python with
               Flask as the backend framework to handle routing and API requests
               to OpenWeatherMap, while the frontend was kept intentionally
-              lightweight using vanilla HTML, CSS, and JavaScript.
+              lightweight using HTML, CSS, and JavaScript.
             </p>
             <p className="text-block">
               The core functionality revolves around a user input field where
               anyone can type in a city name. This triggers a call to the
-              OpenWeatherMap API, and the relevant weather data—temperature,
-              description, humidity, wind speed, and more—is displayed instantly
-              on the page.
+              OpenWeatherMap API, and the relevant weather data — temperature,
+              description, humidity, wind speed, and more — is displayed
+              instantly on the page.
             </p>
             <p className="text-block">
               To ensure the app respects privacy, I deliberately avoided any
@@ -320,7 +320,7 @@ const SkyView: React.FC = () => {
               was working with the OpenWeatherMap API under a tight time
               constraint. While the API is powerful, its documentation is fairly
               extensive, and understanding the exact structure of the data
-              response took more time than expected—especially in a fast-paced
+              response took more time than expected — especially in a fast-paced
               hackathon setting.
             </p>
             <p className="text-block">
@@ -371,14 +371,13 @@ const SkyView: React.FC = () => {
             <hr />
             <p className="text-block">Outcome</p>
             <p className="text-block">
-              SkyView successfully delivered on its goal: a clean,
-              privacy-focused weather app built in under 48 hours. Despite the
-              time constraints, it turned into a fully functional tool with a
-              smooth user experience and a clear purpose. The feedback from
-              other participants was positive, especially around the simplicity
-              and visual design. While it’s a small project, it serves as a
-              complete example of what can be achieved in a short, focused
-              sprint.
+              SkyView successfully delivered on its goal: a clean, privacy -
+              focused weather app built in under 48 hours. Despite the time
+              constraints, it turned into a fully functional tool with a smooth
+              user experience and a clear purpose. The feedback from other
+              participants was positive, especially around the simplicity and
+              visual design. While it’s a small project, it serves as a complete
+              example of what can be achieved in a short, focused sprint.
             </p>
             <p className="text-block">
               The Features I implemeted in the final version are:
