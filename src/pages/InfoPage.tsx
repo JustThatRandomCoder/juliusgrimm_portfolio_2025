@@ -135,8 +135,8 @@ const IndexPage: React.FC = () => {
               <p className="text-block">
                 But besides my love and passion for coding I also tried
                 different other things, finding myself sticking with, regularly
-                hitting the courts 🎾, going to the gym 🏋️ , rowing 🚣 and
-                cooking 👨‍🍳 for my Family ❤️.
+                hitting the courts 🎾, going to the gym 🏋️ , rowing 🚣, cooking
+                👨‍🍳 for my Family ❤️ and playing with my cat Leo 🐈.
               </p>
               <p className="text-block">
                 I’m always excited about exploring new ideas 💡 and pushing
@@ -189,6 +189,9 @@ const IndexPage: React.FC = () => {
                 <span className="text-block text-description">Xcode</span>
                 <span className="text-block text-description">Figma</span>
                 <span className="text-block text-description">Audacity</span>
+                <span className="text-block text-description">
+                  DaVinci Resolve
+                </span>
               </div>
             </section>
             <section className="tools">
@@ -210,31 +213,31 @@ const IndexPage: React.FC = () => {
           </motion.div>
           <motion.div className="image-container" variants={itemVariants}>
             <div className="frame">
-              <img src="/figures/figure1.jpeg" alt="" />
+              <img src="/figures/figure1.jpeg" alt="Figure 1" />
               <div className="description-co">
                 <div className="title">Figure 1 - Me & My Family</div>
                 <div className="description">Würzburg, Germany - 2025</div>
               </div>
             </div>
             <div className="frame">
-              <img src="/figures/figure2.jpeg" alt="" />
+              <img src="/figures/figure7.jpeg" alt="Figure 2" />
               <div className="description-co">
-                <div className="title">Figure 2 - Me</div>
-                <div className="description">Lisbon, Porto - 2025</div>
+                <div className="title">Figure 2 - My cat Leo</div>
+                <div className="description">Tübingen, Germany - 2025</div>
               </div>
             </div>
             <div className="frame">
-              <img src="/figures/figure3.jpeg" alt="" />
+              <img src="/figures/figure3.jpeg" alt="Figure 3" />
               <div className="description-co">
                 <div className="title">Figure 3</div>
-                <div className="description">Lisbon, Porto - 2025</div>
+                <div className="description">Lisbon, Portugal - 2025</div>
               </div>
             </div>
             <div className="frame">
-              <img src="/figures/figure4.jpeg" alt="" />
+              <img src="/figures/figure4.jpeg" alt="Figure 4" />
               <div className="description-co">
                 <div className="title">Figure 4</div>
-                <div className="description">Lisbon, Porto - 2025</div>
+                <div className="description">Lisbon, Portugal - 2025</div>
               </div>
             </div>
           </motion.div>
