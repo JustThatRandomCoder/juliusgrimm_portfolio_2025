@@ -198,6 +198,7 @@ const IndexPage: React.FC = () => {
               <hr />
               <p className="text-block">Coding Languages:</p>
               <div className="item-list">
+                <span className="text-block text-description">React</span>
                 <span className="text-block text-description">Typescript</span>
                 <span className="text-block text-description">Javascript</span>
                 <span className="text-block text-description">Node.js</span>
