@@ -169,6 +169,9 @@ const IndexPage: React.FC = () => {
                   Backend Development
                 </span>
                 <span className="text-block text-description">
+                  Server administarion
+                </span>
+                <span className="text-block text-description">
                   UI / UX Design
                 </span>
                 <span className="text-block text-description">
