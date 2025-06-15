@@ -96,9 +96,9 @@ const IndexPage: React.FC = () => {
           >
             <section className="about">
               <p className="text-block first">
-                Hey, I’m Julius Grimm, 15 y/o and I realy like to think things
-                through. I'm located in{" "}
-                <span className="highlighted">Tübingen, Germany</span> and
+                Hey, I’m Julius Grimm, 15 y/o and I really like to think things
+                through. I'm live in{" "}
+                <span className="highlighted">Tübingen, Germany</span> and I'm a
                 student 📚{" "}
                 <span className="highlighted">@Uhland-Gymnasium Tübingen</span>
               </p>
@@ -115,37 +115,36 @@ const IndexPage: React.FC = () => {
                 intuitive and easy as possible.
               </p>
               <p className="text-block first">
-                Loving technology, my journey began, at the age of 10, driven by
+                Loving technology, my journey began at the age of 10, driven by
                 the obsession of creating something new and trying to do things,
-                which have never been done before, writing code became an
+                which have never been done before. Writing code became an
                 essential part of my life.
               </p>
               <p className="text-block">
-                I tried various different things, among these starting a Podcast
-                🎙️ and a YouTube Chanel 🎞️, but one thing I always sticked to
-                was coding 👨‍💻.{" "}
+                I tried various things, among these starting a Podcast 🎙️ and a
+                YouTube Chanel 🎞️, but the one thing I always sticked to was
+                coding 👨‍💻.{" "}
               </p>
               <p className="text-block">
                 I got into design out of necessity — early on, when building
                 tech projects, I didn’t have existing design concepts to rely
-                on, so I had to create my own. Around the age of 12, I started
-                using Figma and other tools, which sparked a strong interest in
-                design alongside my passion for technology.
+                on, so I had to create my own. At the age of 12, I started using
+                Figma and other tools, which sparked a strong interest in design
+                alongside my passion for technology.
               </p>
               <p className="text-block">
-                But besides my love and passion for coding I also tried
-                different other things, finding myself sticking with, regularly
-                hitting the courts 🎾, going to the gym 🏋️ , rowing 🚣, cooking
-                👨‍🍳 for my Family ❤️ and playing with my cat Leo 🐈.
+                But besides my love profound interest in technology and coding,
+                I love to regularly hit the courts 🎾, go to the gym 🏋️ , row
+                🚣, cook 👨‍🍳 for my family ❤️ and play with our cat Leo 🐈.
               </p>
               <p className="text-block">
                 I’m always excited about exploring new ideas 💡 and pushing
                 boundaries — especially when it comes to design. Lately, I’ve
-                been drawn to VR and AR 🕶️, and in the future, I see myself
+                been drawn to VR and AR 🕶️. In the future, I see myself
                 designing the human interfaces 🖱️ that make these experiences
                 feel natural and intuitive. I want to see things differently,
-                use them differently, and help shape the way people interact
-                with technology in new dimensions 🌐.
+                use them differently and help shape the way people interact with
+                technology in new dimensions 🌐.
               </p>
             </section>
             <section className="education">
@@ -219,28 +218,28 @@ const IndexPage: React.FC = () => {
             <div className="frame">
               <img src="/figures/figure1.jpeg" alt="Figure 1" />
               <div className="description-co">
-                <div className="title">Figure 1 - Me & My Family</div>
+                <div className="title">Figure 1 - Our Family</div>
                 <div className="description">Würzburg, Germany - 2025</div>
               </div>
             </div>
             <div className="frame">
               <img src="/figures/figure7.jpeg" alt="Figure 2" />
               <div className="description-co">
-                <div className="title">Figure 2 - My cat Leo</div>
+                <div className="title">Figure 2 - Our cat Leo</div>
                 <div className="description">Tübingen, Germany - 2025</div>
               </div>
             </div>
             <div className="frame">
               <img src="/figures/figure3.jpeg" alt="Figure 3" />
               <div className="description-co">
-                <div className="title">Figure 3</div>
+                <div className="title">Figure 3 - Recent vacation</div>
                 <div className="description">Lisbon, Portugal - 2025</div>
               </div>
             </div>
             <div className="frame">
               <img src="/figures/figure4.jpeg" alt="Figure 4" />
               <div className="description-co">
-                <div className="title">Figure 4</div>
+                <div className="title">Figure 4 - Recent vacation</div>
                 <div className="description">Lisbon, Portugal - 2025</div>
               </div>
             </div>

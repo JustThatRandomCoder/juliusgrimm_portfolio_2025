@@ -123,9 +123,8 @@ const SkyView: React.FC = () => {
             />
             <motion.div className="title-container" variants={itemVariants}>
               <div className="title">
-                <span className="highlighted">@SkyView</span> is is an
-                Open-Source weather service I developped during a Hackathon in
-                2024
+                <span className="highlighted">@SkyView</span> is an open-source
+                weather service I developed during a Hackathon in 2024
               </div>
               <div className="role">
                 UI / UX Design & Fullstack Development{" "}
@@ -188,11 +187,11 @@ const SkyView: React.FC = () => {
                 @Kevin Chromik
               </a>
               . The challenge: Build something useful using the OpenWeatherMap
-              API over a weekend.
+              API in the duration of a weekend.
             </p>
             <p className="text-block">
               I decided to build a tool that respects user privacy, doesn’t
-              track data, and still looks great across devices — all within a
+              track data and still looks great across devices — all within a
               48-hour sprint.
             </p>
           </section>
@@ -296,18 +295,18 @@ const SkyView: React.FC = () => {
               of user experience and development approach. I used Python with
               Flask as the backend framework to handle routing and API requests
               to OpenWeatherMap, while the frontend was kept intentionally
-              lightweight using HTML, CSS, and JavaScript.
+              lightweight using HTML, CSS and JavaScript.
             </p>
             <p className="text-block">
               The core functionality revolves around a user input field where
               anyone can type in a city name. This triggers a call to the
-              OpenWeatherMap API, and the relevant weather data — temperature,
-              description, humidity, wind speed, and more — is displayed
+              OpenWeatherMap API and the relevant weather data — temperature,
+              description, humidity, wind speed and more — is displayed
               instantly on the page.
             </p>
             <p className="text-block">
               To ensure the app respects privacy, I deliberately avoided any
-              kind of location tracking, cookie usage, or analytics scripts. All
+              kind of location tracking, cookie usage or analytics scripts. All
               requests are initiated manually by the user, and no data is stored
               or logged in the backend.
             </p>
@@ -319,7 +318,7 @@ const SkyView: React.FC = () => {
               One of the biggest challenges during the development of SkyView
               was working with the OpenWeatherMap API under a tight time
               constraint. While the API is powerful, its documentation is fairly
-              extensive, and understanding the exact structure of the data
+              extensive and understanding the exact structure of the data
               response took more time than expected — especially in a fast-paced
               hackathon setting.
             </p>
@@ -332,14 +331,14 @@ const SkyView: React.FC = () => {
             </p>
             <p className="text-block">
               However, once I got familiar with the API’s structure, things
-              started to click. I was able to build a functional integration
+              started to get real. I was able to build a functional integration
               that reliably fetched and displayed the right weather data for any
-              city, and I even added proper error handling for invalid inputs or
+              city and I even added proper error handling for invalid inputs or
               failed requests.
             </p>
             <p className="text-block">
               This challenge taught me how to quickly navigate documentation,
-              identify what’s truly important, and make something work under
+              identify what’s truly important and make something work under
               pressure—all valuable lessons for future API-driven projects.
             </p>
           </section>
@@ -359,7 +358,7 @@ const SkyView: React.FC = () => {
               short development window.
             </p>
             <p className="text-block">
-              This Figure shows the poster I created for the presentation:
+              This Figure shows the poster for the presentation:
             </p>
             <img
               style={{ marginTop: "2rem", width: "100%", height: "100%" }}
@@ -392,20 +391,19 @@ const SkyView: React.FC = () => {
             <hr />
             <p className="text-block">What I learned</p>
             <p className="text-block">
-              This mini-hackathon was my first ever hackathon, and needing to
+              This mini-hackathon was my first ever hackathon and needing to
               complete a full project in just 48 hours was a great learning
               experience. It challenged me to make fast, focused decisions and
               balance both design and development under pressure. SkyView
               specifically taught me how to quickly navigate and work with a
               large API under tight time pressure. Understanding the
-              OpenWeatherMap structure, pulling only what I needed, and turning
+              OpenWeatherMap structure, pulling only what I needed and turning
               it into something usable was a valuable hands-on experience.
             </p>
             <p className="text-block">
               Beyond the technical side, the project pushed me to build,
-              document, and present a complete app — all within a weekend. It
-              was a crash course in fast-paced development and clear
-              communication.
+              document and present a complete app — all within a weekend. It was
+              a crash course in fast-paced development and clear communication.
             </p>
             <p className="text-block">
               summarizing the experience, I learned a lot about:
@@ -432,7 +430,7 @@ const SkyView: React.FC = () => {
             </p>
             <p className="text-block">
               If you have any questions or want to know more about the project,
-              feel free to reach out to me via{" "}
+              feel free to contact me via{" "}
               <a
                 href="mailto:me@juliusgrimm.dev"
                 target="_blank"

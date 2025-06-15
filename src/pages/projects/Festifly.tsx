@@ -152,9 +152,10 @@ const FestiFly: React.FC = () => {
             <p className="text-block">
               FestiFly is a modern web app that aimed to streamline event
               planning for young people through intuitive design and smart
-              automation. Although we decided not to continue development after
-              completing the frontend, the project taught us valuable lessons in
-              product design, team collaboration, and user-centered thinking.
+              automation. We decided not to continue development after
+              completing the frontend. However during the project we gained
+              valuable lessons in product design, team collaboration and
+              user-centered thinking.
             </p>
           </section>
           <section className="text-block first">
@@ -162,10 +163,10 @@ const FestiFly: React.FC = () => {
             <p className="text-block">The Problem</p>
             <p className="text-block">
               Planning events is often chaotic and fragmented, especially for
-              younger people. Existing tools are either too complex or lack
+              young people. Existing tools are either too complex or lack
               modern, user-friendly designs. FestiFly set out to solve this by
-              creating an intuitive, all-in-one platform that makes organizing
-              events effortless and enjoyable.
+              creating an intuitive, all-in-one platform. To achieve organizing
+              events becommes effortless and enjoyable.
             </p>
           </section>
           <section className="text-block first">
@@ -177,18 +178,18 @@ const FestiFly: React.FC = () => {
             </p>
             <div className="text-block bullet-points">
               <span>
-                1. Most existing tools felt outdated or overly corporate.
+                1. Most existing tools were outdated or overly complicated.
               </span>
               <span>
-                2. Users wanted clarity, flexibility, and visual appeal.
+                2. Users wanted clarity, flexibility and visual appeal.
               </span>
               <span>
-                3. Coordinating tasks in a group was especially painful.
+                3. Coordinating tasks were especially painful in a group.
               </span>
             </div>
             <p className="text-block mb-0">
-              From this, we focused on three main design goals: simplicity,
-              speed, and personality.
+              Therefore we focused on three main design goals: simplicity,
+              speed, and individuality.
             </p>
           </section>
           <section className="text-block first">
@@ -196,7 +197,7 @@ const FestiFly: React.FC = () => {
             <p className="text-block">Ideation & Wireframing</p>
             <p className="text-block">
               I created initial low-fidelity wireframes in Figma, exploring
-              different flows for onboarding, event creation, and user
+              different flows for onboarding, event creation and user
               collaboration.
             </p>
             <div className="frames">
@@ -294,7 +295,7 @@ const FestiFly: React.FC = () => {
               I built the full frontend in TypeScript with React and Vite.
               Styling was done with Tailwind CSS and animations were handled
               using GSAP and Framer Motion. My teammate focused on backend logic
-              in Node.js, while I focused on user flows, visual design, and
+              in Node.js, while I focused on user flows, visual design and
               responsiveness.
             </p>
             <p className="text-block">
@@ -315,9 +316,10 @@ const FestiFly: React.FC = () => {
             <p className="text-block">Outcome</p>
             <p className="text-block">
               Although we successfully completed the Figma sketches and parts of
-              the Frontend, we decided to discontinue full development. Building
-              and maintaining a production-ready backend with AI features would
-              have exceeded our current budget and time resources.
+              the Frontend, we decided to discontinue to stop short of a full
+              development. Building and maintaining a production-ready backend
+              with AI features would have exceeded our current budget and time
+              resources.
             </p>
             <p className="text-block">
               Still, the project was a major success in terms of:
@@ -335,10 +337,10 @@ const FestiFly: React.FC = () => {
               I enjoyed the process of creating a product from scratch, from
               ideation to design and development. I learned valuable skills and
               I cloud furhter improve my design and coding abilities. I also
-              learned how to work with a team, communicate effectively, and
-              manage my time and resources. Building and Handling big software
-              projects is a complex task that requires a lot of planning,
-              testing, and iteration.
+              learned how to work in a group, communicate effectively and manage
+              my time and resources. I did better understand to what extent,
+              building and handling big software projects is a complex task that
+              requires a lot of planning, testing, and iteration.
             </p>
             <p className="text-block">...but in a nutshell, I learned:</p>
             <div className="text-block bullet-points wm">
@@ -350,10 +352,7 @@ const FestiFly: React.FC = () => {
                 Working with animation libraries like GSAP requires detailed
                 planning to maintain performance and code readability.
               </span>
-              <span>
-                Real-world product scope often changes — and that’s okay.
-                Knowing when to stop is part of the process.
-              </span>
+              <span>Real-world product scope often changes.</span>
             </div>
           </section>
           <section className="text-block first">
@@ -361,13 +360,13 @@ const FestiFly: React.FC = () => {
             <p className="text-block">Next Steps</p>
             <p className="text-block">
               While FestiFly won’t be launched publicly, the knowledge and
-              components we created are already being used in our future
-              projects. I plan to reuse parts of the design system and UI logic
-              in upcoming apps.
+              components we created are already being used in our new projects.
+              I plan to reuse parts of the design system and UI logic in
+              upcoming apps.
             </p>
             <p className="text-block">
               If you have any questions or want to know more about the project,
-              feel free to reach out to me via{" "}
+              feel free to cantact me via{" "}
               <a
                 href="mailto:me@juliusgrimm.dev"
                 target="_blank"

@@ -123,8 +123,8 @@ const VibeVote: React.FC = () => {
             />
             <motion.div className="title-container" variants={itemVariants}>
               <div className="title">
-                <span className="highlighted">@VibeVote</span> is is a
-                Songrequesting-Tool for DJ’s to simplify songrequesting during
+                <span className="highlighted">@VibeVote</span> is a song
+                requesting tool for DJ’s to simplify songrequesting during
                 shows.
               </div>
               <div className="role">
@@ -170,8 +170,8 @@ const VibeVote: React.FC = () => {
             <hr />
             <p className="text-block">
               VibeVote is a digital tool that allows DJs and event organizers to
-              easily collect and manage song requests. Each party gets a unique
-              QR code that guests can scan to submit their song requests
+              easily collect and manage song requests. Each event gets a unique
+              QR code. Every guests can theirfore submit their song requests
               directly from their phones. These requests then appear live on a
               dashboard tailored for DJs, making it seamless to interact with
               the crowd’s vibe.
@@ -182,14 +182,14 @@ const VibeVote: React.FC = () => {
             <p className="text-block">The Idea</p>
             <p className="text-block">
               The inspiration for VibeVote came during a school event I helped
-              organize as part of our tech team. We were hosting a party for the
-              lower graders, and to keep the music engaging, we allowed guests
-              to request songs—using pen and paper. That quickly turned chaotic.
-              People scribbled illegibly, requests got lost, and the list was
-              hard to manage.
+              to organize as part of my schools tech team. We were hosting a
+              party for students and to keep the music engaging, we allowed
+              guests to request songs, using pen and paper. That quickly turned
+              chaotic. People scribbled illegibly, requests got lost and the
+              list was hard to manage.
             </p>
             <p className="text-block">
-              That’s when I thought: "Why not bring this online?"
+              I thought: "Why not bring this online?"
             </p>
           </section>
           <section className="text-block first">
@@ -199,8 +199,8 @@ const VibeVote: React.FC = () => {
               Before starting development, I explored how song requests were
               typically handled at events, especially in smaller or more casual
               settings like school parties. My own experience at a school event
-              highlighted just how messy and inefficient paper-based systems
-              were—but I also wanted to see what digital alternatives existed.
+              highlighted how messy and inefficient paper-based systems were —
+              but I also wanted to see what digital alternatives existed.
             </p>
             <div className="text-block bullet-points wm">
               <span className="first">
@@ -208,18 +208,18 @@ const VibeVote: React.FC = () => {
                 song request features, but they were often part of large,
                 bloated DJ software ecosystems or required guests to download
                 apps, create accounts, or navigate through unintuitive
-                interfaces. For quick, casual parties, these were simply
+                interfaces. For quick, casual parties, these were simply an
                 overkill.
               </span>
               <span>
                 Not optimized for guests: Many tools were DJ-focused, not
                 guest-friendly. The barrier to entry (e.g. signing up or
-                downloading something) turned people off from using them
-                altogether.
+                downloading something) turned people down from using these
+                devices altogether.
               </span>
               <span>
                 No instant setup: Most platforms didn’t offer a way to quickly
-                set up a party, generate a shareable link or QR code, and just
+                set up a party, generate a shareable link or QR code and just
                 start collecting requests. I wanted something that worked right
                 out of the box—no tech skills required.
               </span>
@@ -266,7 +266,7 @@ const VibeVote: React.FC = () => {
             <p className="text-block">
               After sketching out the initial idea, I created a simple Figma
               Prototype, showing what the Application should look like and how I
-              imagined it to work like:
+              imagined it to work like.
             </p>
 
             <p className="text-block mt-4">
@@ -311,7 +311,7 @@ const VibeVote: React.FC = () => {
               flexible tech stack. The frontend is done in plain HTML and CSS
               for simplicity and speed, with all UI designs created in Figma. On
               the backend, I used Python with Flask to handle routing, user
-              sessions, and form logic.
+              sessions and form logic.
             </p>
             <p className="text-block">
               MongoDB powers the database, allowing flexible storage for user
@@ -320,11 +320,11 @@ const VibeVote: React.FC = () => {
               handling, which I implemented from scratch.
             </p>
             <p className="text-block">
-              Each party generates a unique QR code and poster using a Python
-              library. Guests scan the code, submit their song via a simple
-              form, and the request appears live on the DJ’s dashboard.
-              Everything runs on a Flask web server and is hosted @
-              <a href="https://viebvote.de">vibevote.de</a>.
+              At each event (party) a unique QR code and poster are generated
+              using a Python library. Guests scan the code, submit their song
+              via a simple form and the request appears live on the DJ’s
+              dashboard. Everything runs on a Flask web server and is hosted @
+              <a href="https://viebvote.de">vibevote.de</a>
             </p>
           </section>
           <section className="text-block first">
@@ -349,12 +349,13 @@ const VibeVote: React.FC = () => {
             <hr />
             <p className="text-block">Promotion and Marketing</p>
             <p className="text-block">
-              To get VibeVote in front of the right audience, I focused on a few
-              targeted channels. I created a dedicated Instagram account to
-              share updates, features, and behind-the-scenes looks at the
-              project. To give it a stronger visual presence, I produced a short
-              promo video and launched a VibeVote YouTube channel, showcasing
-              how the platform works in a real party scenario.
+              To present VibeVote and to find the people looking for an
+              apprpriate solution, I focused on a few targeted channels. I
+              created a dedicated Instagram account to share updates, features
+              and behind-the-scenes looks at the project. To give it a stronger
+              visual presence, I produced a short promo video and launched a
+              VibeVote YouTube channel, showcasing how the platform works in a
+              real party scenario.
             </p>
             <p className="text-block">
               I also submitted the project to Product Hunt to reach a broader
@@ -362,9 +363,7 @@ const VibeVote: React.FC = () => {
               efforts helped build initial visibility and brought the tool into
               the hands of DJs, organizers, and curious testers.
             </p>
-            <p className="text-block">
-              This is the short promo video I created for VibeVote:
-            </p>
+            <p className="text-block">The short promo video for VibeVote:</p>
             <iframe
               width="560"
               height="315"
@@ -389,11 +388,11 @@ const VibeVote: React.FC = () => {
               VibeVote turned a chaotic paper-based request system into a smooth
               digital experience. It’s now hosted live at vibevote.de and can be
               used at parties, school events, or even professional DJ gigs. It’s
-              been a fun and challenging solo build—one that blends utility with
-              a simple and intuitive user experience.
+              been a fun and challenging solo build — one that blends utility
+              with a simple and intuitive user experience.
             </p>
             <p className="text-block">
-              The Features I implemeted in the final version are:
+              The features I implemeted in the final version are:
             </p>
             <div className="text-block bullet-points">
               <span>1. Easy set up of a Party for the DJ</span>
@@ -413,25 +412,27 @@ const VibeVote: React.FC = () => {
               across platforms.
             </p>
             <p className="text-block">
-              That process taught me much more than just development. I got
-              deeper into design thinking, product communication, and even sound
-              design while editing the promo video. It pushed me to learn how to
-              tell a story around a product and present it in a way that’s both
-              clear and engaging.
+              That process was much more than just development. I got deeper
+              into design thinking, product communication and even sound design
+              while editing the promo video. It pushed me to learn how to tell a
+              story around a product and present it in a way that is both clear
+              and engaging.
             </p>
             <p className="text-block">
               Working across disciplines gave me a broader perspective on what
-              it takes to build something real—and ship it.
+              it takes to build something real — and ship it.
             </p>
             <p className="text-block">
               Beyond the code, I also gained valuable experience in product
               thinking:
             </p>
             <div className="text-block bullet-points wm">
-              <span className="first">designing for both DJs and guests</span>
-              <span>keeping things simple</span>
+              <span className="first">
+                1. designing for both DJs and guests
+              </span>
+              <span>2. keeping things simple</span>
               <span>
-                and promoting the project effectively across platforms.
+                3. promoting the project effectively across platforms.
               </span>
             </div>
           </section>
@@ -441,19 +442,19 @@ const VibeVote: React.FC = () => {
             <p className="text-block">
               VibeVote will remain online and fully functional @{" "}
               <a href="https://vibevote.de">vibevote.de</a>, ready to be used at
-              events and parties. However, I won’t be adding new features in the
-              near future, as I’m shifting my focus toward building new projects
-              and continuing to grow my skills as a developer and designer.
+              events and parties. However, I don't plan to add new features in
+              the near future. Right noe I'm building new projects and continue
+              to grow my skills as a developer and designer.
             </p>
             <p className="text-block">
               The project taught me a lot, and I’m proud of what it offers in
-              its current state. While it may not evolve much for now, it stands
-              as a complete and useful tool — and a milestone in my personal
+              its current state. While it may not go much for now, it stands as
+              a complete and useful tool — and for me a milestone in my personal
               development journey.
             </p>
             <p className="text-block">
               If you have any questions or want to know more about the project,
-              feel free to reach out to me via{" "}
+              feel free to contact me via{" "}
               <a
                 href="mailto:me@juliusgrimm.dev"
                 target="_blank"
