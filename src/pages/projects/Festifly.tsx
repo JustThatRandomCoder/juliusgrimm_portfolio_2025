@@ -316,9 +316,9 @@ const FestiFly: React.FC = () => {
             <p className="text-block">Outcome</p>
             <p className="text-block">
               Although we successfully completed the Figma sketches and parts of
-              the Frontend, we decided to discontinue to stop short of a full
-              development. Building and maintaining a production-ready backend
-              with AI features would have exceeded our current budget and time
+              the Frontend, we decided to stop short of a full development.
+              Building and maintaining a production-ready backend with AI
+              features would have exceeded our current budget and time
               resources.
             </p>
             <p className="text-block">
