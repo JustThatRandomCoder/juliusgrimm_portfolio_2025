@@ -97,7 +97,7 @@ const IndexPage: React.FC = () => {
             <section className="about">
               <p className="text-block first">
                 Hey, I’m Julius Grimm, 15 y/o and I really like to think things
-                through. I'm live in{" "}
+                through. I live in{" "}
                 <span className="highlighted">Tübingen, Germany</span> and I'm a
                 student 📚{" "}
                 <span className="highlighted">@Uhland-Gymnasium Tübingen</span>
