@@ -165,8 +165,8 @@ const FestiFly: React.FC = () => {
               Planning events is often chaotic and fragmented, especially for
               young people. Existing tools are either too complex or lack
               modern, user-friendly designs. FestiFly set out to solve this by
-              creating an intuitive, all-in-one platform. To achieve organizing
-              events becommes effortless and enjoyable.
+              creating an intuitive, all-in-one platform. To achieve that
+              organizing events becommes effortless and enjoyable.
             </p>
           </section>
           <section className="text-block first">
