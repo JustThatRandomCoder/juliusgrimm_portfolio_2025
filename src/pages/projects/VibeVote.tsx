@@ -350,7 +350,7 @@ const VibeVote: React.FC = () => {
             <p className="text-block">Promotion and Marketing</p>
             <p className="text-block">
               To present VibeVote and to find the people looking for an
-              apprpriate solution, I focused on a few targeted channels. I
+              appropriate solution, I focused on a few targeted channels. I
               created a dedicated Instagram account to share updates, features
               and behind-the-scenes looks at the project. To give it a stronger
               visual presence, I produced a short promo video and launched a
@@ -404,15 +404,15 @@ const VibeVote: React.FC = () => {
             <hr />
             <p className="text-block">What I learned</p>
             <p className="text-block">
-              VibeVote was my first really big software project, and because I
+              VibeVote was my first really big software project and because I
               handled everything on my own, I had to step into many different
               roles beyond just coding. I built the entire system from the
               ground up—frontend, backend, database, authentication—but also
-              created the brand, produced a YouTube trailer, and promoted it
+              created the brand, produced a YouTube trailer and promoted it
               across platforms.
             </p>
             <p className="text-block">
-              That process was much more than just development. I got deeper
+              This process was much more than just development. I got deeper
               into design thinking, product communication and even sound design
               while editing the promo video. It pushed me to learn how to tell a
               story around a product and present it in a way that is both clear
