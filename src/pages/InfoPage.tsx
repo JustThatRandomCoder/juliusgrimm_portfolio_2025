@@ -133,9 +133,9 @@ const IndexPage: React.FC = () => {
                 alongside my passion for technology.
               </p>
               <p className="text-block">
-                But besides my love profound interest in technology and coding,
-                I love to regularly hit the courts 🎾, go to the gym 🏋️ , row
-                🚣, cook 👨‍🍳 for my family ❤️ and play with our cat Leo 🐈.
+                But besides my profound interest in technology and coding, I
+                enjoy to regularly hit the courts 🎾, go to the gym 🏋️ , row 🚣,
+                cook 👨‍🍳 for my family ❤️ and play with our cat Leo 🐈.
               </p>
               <p className="text-block">
                 I’m always excited about exploring new ideas 💡 and pushing
